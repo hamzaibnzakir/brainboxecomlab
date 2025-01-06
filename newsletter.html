@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <!-- Navigation -->
+<nav>
+    <a href="index.html" class="logo">BRAINBOX ECOM LAB</a>
+
+    <!-- Mobile Menu Button -->
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Desktop Navigation Links -->
+
+    <!-- Mobile Navigation Links -->
+    <div class="mobile-nav-links">
+        <ul>
+            <li><a href="./terms.html">Terms of Service</a></li>
+            <li><a href="./newsletter.html">Newsletter</a></li>
+            <li><a href="./blueprint.html">Blueprint</a></li>
+        </ul>
+    </div>
+
+    <!-- Book a Call Button -->
+    <a href="./index.html" class="btn">Home</a>
+</nav>
+<section id="feedback" class="feedback-section">
+    <div class="container">
+        <h2>Stay Updated & Share Your Preferences!</h2>
+        <p>Subscribe to our newsletter and let us know your preferences to tailor our updates just for you.</p>
+        <form action="process-feedback.php" method="POST" class="feedback-form">
+            <!-- Email Input -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <!-- Survey Options -->
+            <div class="form-group">
+                <p>What type of updates do you enjoy the most?</p>
+                <label>
+                    <input type="radio" name="survey" value="Tips & Tricks" required>
+                    Tips & Tricks
+                </label>
+                <label>
+                    <input type="radio" name="survey" value="Exclusive Offers" required>
+                    Exclusive Offers
+                </label>
+                <label>
+                    <input type="radio" name="survey" value="Latest News" required>
+                    Latest News
+                </label>
+                <label>
+                    <input type="radio" name="survey" value="All of the Above" required>
+                    All of the Above
+                </label>
+            </div>
+            
+            <!-- Submit Button -->
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="logo-footer">
+            <a href="index.html" class="footer-logo">BRAINBOX ECOM LAB</a>
+        </div>
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +121 56556 565556</p>
+            <p>Address: Your Address 123 Street</p>
+        </div>
+        <div class="footer-content">
+            <h3>Quick Links</h3>
+            <ul class="list">
+                <li><a href="index.html" class="one">home</a></li>
+                <li><a href="blueprint.html" class="four">Blueprint</a></li>
+                <li><a href="newsletter.html" class="six">newsletter</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><a href="https://wa.link/ae532x"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://discord.gg/brainbox-ecom-lab-1153608350790062160"><i class="fab fa-discord"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<style>
+    /* Responsive Design */
+@media (max-width: 768px) {
+    .newsletter-section h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter-section p {
+        font-size: 1rem;
+    }
+}
+</style>
+</body>
+<script src="main.js"></script>
+</html>
